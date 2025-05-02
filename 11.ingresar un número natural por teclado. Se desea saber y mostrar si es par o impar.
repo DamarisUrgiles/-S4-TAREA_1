@@ -1,0 +1,16 @@
+Algoritmo numeros_pares_e_impares
+    Definir numero Como Entero
+	
+    Escribir "Ingrese un número natural:"
+    Leer numero
+	
+    Si numero >= 0 Entonces
+        Si numero Mod 2 = 0 Entonces
+            Escribir "El número es par."
+        Sino
+            Escribir "El número es impar."
+        FinSi
+    Sino
+        Escribir "El número ingresado no es natural (debe ser 0 o mayor)."
+    FinSi
+FinProceso
