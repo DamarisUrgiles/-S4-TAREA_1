@@ -1,0 +1,12 @@
+Algoritmo circunferencia
+	Definir radio, perimetro Como Real
+	// solicitar el radio hasta que sen mayoor que cero
+	Repetir
+		Escribir 'ingrese el radio de la circunferencia may‰or (mayor a 0:'
+		Leer radio
+	Hasta Que radio<0
+	// calcular el perimetro//
+	perimetro <- 2*3.1416*radio
+	// mostrar el resultado
+	Escribir 'el perimetro de la circunferencia e‰s:', perimetro
+FinAlgoritmo
